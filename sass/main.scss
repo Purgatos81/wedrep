@@ -1,12 +1,12 @@
 
 
 
-$periwinkle: #575fcf;
+$bacgroundcol: #575fcf;
 
-$headcolor: #333;
+$headcolor: #fff;
 
 body {
-    background-color: $periwinkle;
+    background-color: $bacgroundcol;
 }
 
 h1 {
@@ -18,5 +18,5 @@ h2 {
 }
 
 p {
-    color: black;
+    color: $headcolor;
 }
