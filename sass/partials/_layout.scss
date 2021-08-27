@@ -1,0 +1,17 @@
+@use 'variables';
+
+body {
+    background-color: variables.$bacgroundcol;
+}
+
+h1 {
+    color: variables.$headcolor;
+}
+
+h2 {
+    color: variables.$headcolor;
+}
+
+p {
+    color: variables.$headcolor;
+}
