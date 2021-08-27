@@ -1,5 +1,7 @@
 @use 'variables';
 
+@use 'mixins';
+
 body {
     background-color: variables.$bacgroundcol;
 }
@@ -14,4 +16,13 @@ h2 {
 
 p {
     color: variables.$headcolor;
+}
+
+
+img {
+    @include mixins.imgborder();
+}
+
+main {
+    @include mixins.imgborder(15px);
 }
