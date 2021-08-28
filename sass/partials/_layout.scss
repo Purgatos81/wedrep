@@ -18,11 +18,11 @@ p {
     color: variables.$headcolor;
 }
 
-
-img {
-    @include mixins.imgborder();
+.button {
+    @include mixins.jobButton();
+    font-family: variables.$buttonFont;
 }
 
-main {
-    @include mixins.imgborder(15px);
+.button:hover {
+    border-color: white;
 }
