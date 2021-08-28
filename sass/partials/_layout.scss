@@ -6,16 +6,27 @@ body {
     background-color: variables.$bacgroundcol;
 }
 
+main {
+    @include mixins.mainFlex()
+}
+
+footer {
+    @include mixins.mainFlex()
+}
+
 h1 {
     color: variables.$headcolor;
+    font-family: variables.$buttonFont;
 }
 
 h2 {
     color: variables.$headcolor;
+    font-family: variables.$buttonFont;
 }
 
 p {
     color: variables.$headcolor;
+    font-family: variables.$buttonFont;
 }
 
 .button {

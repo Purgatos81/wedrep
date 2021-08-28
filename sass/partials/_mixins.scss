@@ -13,3 +13,9 @@
     color: white;
     padding: 5px;
 }
+
+@mixin mainFlex ($flxdir: column) {
+    display: flex;
+    align-items: center;
+    flex-direction: $flxdir;
+}

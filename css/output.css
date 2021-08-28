@@ -1,18 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 body {
-  background-color: #575fcf;
+  background-color: #232226;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 h1 {
   color: #fff;
+  font-family: "Rubik", sans-serif;
 }
 
 h2 {
   color: #fff;
+  font-family: "Rubik", sans-serif;
 }
 
 p {
   color: #fff;
+  font-family: "Rubik", sans-serif;
 }
 
 .button {
