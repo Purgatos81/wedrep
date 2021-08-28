@@ -17,6 +17,7 @@ footer {
 h1 {
     color: variables.$headcolor;
     font-family: variables.$buttonFont;
+    text-decoration: underline;
 }
 
 h2 {
@@ -27,6 +28,12 @@ h2 {
 p {
     color: variables.$headcolor;
     font-family: variables.$buttonFont;
+    max-width: 450px;
+}
+
+.button-container {
+    margin-top: 100px;
+    margin-bottom: 20px
 }
 
 .button {
